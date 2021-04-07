@@ -1,0 +1,53 @@
+.kanin {
+    font-family: 'Kanit', sans-serif;
+}
+
+.active-menu{
+    color: #260176 !important;
+}
+
+.list-group-item.active {
+    color: white !important;
+    background-color: #260176;
+    border-color: #260176; 
+}
+
+.list-group .list-group-item:hover {
+    color: white !important;
+    background-color: rgb(64, 179, 224);
+}
+
+.input-no-spinner {
+    -moz-appearance: textfield;
+}
+.input-no-spinner::-webkit-outer-spin-button,
+.input-no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.navbar-collapse > .navbar-nav > li > a:hover{
+    color: #260176 !important;
+}
+.active-menu2{
+    color: white !important;
+    background-color: #260176;
+    border: 0px solid gray;
+}
+
+.form-control-custom:focus {
+    border-color: #260176;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+  }
+
+.hand {
+    cursor: pointer;
+}
+
+.decoration-inside{
+    text-align:center; 
+    height: 30px; 
+    width: 1px; 
+    background-color: #26017663; 
+    display:block;
+}

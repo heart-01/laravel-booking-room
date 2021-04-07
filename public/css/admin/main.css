@@ -1,0 +1,16 @@
+.kanin {
+    font-family: 'Kanit', sans-serif;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.input-no-spinner {
+    -moz-appearance: textfield;
+}
+.input-no-spinner::-webkit-outer-spin-button,
+.input-no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

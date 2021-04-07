@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'icon-b3';
+    src: url("{{ asset('fonts/icon-b3/glyphicons-halflings-regular.eot') }}") format('truetype');
+}
+@font-face {
+    font-family: 'icon-b3';
+    src: url("{{ asset('fonts/icon-b3/glyphicons-halflings-regular.svg') }}") format('truetype');
+}
+@font-face {
+    font-family: 'icon-b3';
+    src: url("{{ asset('fonts/icon-b3/glyphicons-halflings-regular.ttf') }}") format('truetype');
+}
+@font-face {
+    font-family: 'icon-b3';
+    src: url("{{ asset('fonts/icon-b3/glyphicons-halflings-regular.woff') }}") format('truetype');
+}
+@font-face {
+    font-family: 'icon-b3';
+    src: url("{{ asset('fonts/icon-b3/glyphicons-halflings-regular.woff2') }}") format('truetype');
+}
