@@ -40,3 +40,28 @@ body {
     background-color: rgb(189, 189, 189);
     font-weight : bold;
 }
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.fontL {
+    font-size: large;
+    text-indent: 2.5em;
+}
+
+.indent {
+    text-indent: 2.5em;
+}
+
+.ml {
+    margin-left: 10px;
+}
+
+.mt {
+    margin-top: 50px;
+}
