@@ -13,7 +13,7 @@ class Bookings extends Model
     protected $primaryKey = 'bookings_id';
 
     protected $fillable = [
-        'bookings_id', 'users_id', 'classrooms_id', 'semesters_id', 'days', 'time_start', 'time_end', 'seats', 'fname', 'lname', 'email', 'tel', 'faculty', 'subject', 'course_code', 'part', 'status', 'approval',
+        'bookings_id', 'users_id', 'classrooms_id', 'semesters_id', 'days', 'time_start', 'time_end', 'seats', 'fname', 'lname', 'email', 'tel', 'faculty', 'department', 'subject', 'course_code', 'part', 'status', 'approval',
     ];
 
     public function book_softwares() //กรณี bookings เป็น pk ดึงข้อมูลตาราง book_softwares เชื่อมด้วย bookings_id ในตาราง bookings

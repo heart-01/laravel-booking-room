@@ -69,6 +69,11 @@
                 <?= Form::text('con_faculty', $data->faculty, ['class' => 'bg-white m-0 border-0', 'id'=> 'con_faculty', 'disabled', 'style'=> 'height: 20px; padding: 0px 0px 0px 0px;']); ?>
             </dd>
 
+            <dt class="col-sm-2">ภาควิชา :</dt>
+            <dd class="col-sm-10">
+                <?= Form::text('con_department', $data->department, ['class' => 'bg-white m-0 border-0', 'id'=> 'con_department', 'disabled', 'style'=> 'height: 20px; padding: 0px 0px 0px 0px;']); ?>
+            </dd>
+
             <dt class="col-sm-2">วิชา :</dt>
             <dd class="col-sm-10">
                 <?= Form::text('con_subject', $data->subject, ['class' => 'bg-white m-0 border-0', 'id'=> 'con_subject', 'disabled', 'style'=> 'height: 20px; padding: 0px 0px 0px 0px;']); ?>

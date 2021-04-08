@@ -30,6 +30,7 @@ class CreateBookingsTable extends Migration
             $table->string('email');
             $table->string('tel');
             $table->string('faculty');
+            $table->string('department');
             $table->string('subject');
             $table->string('course_code');
             $table->string('part');

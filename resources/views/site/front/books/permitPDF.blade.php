@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="{{ asset('css/front/books/permitPDF.css') }}">
 </head>
 <body>
+    <div class="center"><img src="{{ asset('images/front/logo_icit.png') }}" alt=""></div>
     <h1 class="center">แบบฟอร์มขอใช้ห้องเรียนสำนักคอม</h1>
     <div class="fontL"><b>1. ผู้ขออนุมัติใช้ห้องประชุม</b></div>
         <dd class="fontL">ชื่อ <span class="ml">{{ $data->fname }} {{ $data->lname }}</span> </dd>
         <dd class="fontL">Email <span class="ml">{{ $data->email }}</span> </dd>
         <dd class="fontL">เบอร์ภายใน <span class="ml">{{ $data->tel }}</span> </dd>
         <dd class="fontL">คณะ <span class="ml">{{ $data->faculty }}</span> </dd>
+        <dd class="fontL">ภาควิชา <span class="ml">{{ $data->department }}</span> </dd>
         <dd class="fontL">วิชา <span class="ml">{{ $data->subject }}</span> </dd>
         <dd class="fontL">รหัสวิชา <span class="ml">{{ $data->course_code }}</span> </dd>
         <dd class="fontL">ตอนเรียน <span class="ml">{{ $data->part }}</span> </dd>
@@ -27,14 +29,14 @@
         <span class="ml">กรุณาส่งแบบฟอร์มภายใน 15 วัน มิฉะนั้นการจองในครั้งนี้จะถูกยกเลิกโดยอัตโนมัติ</span>
     </div>
 
-    <div style="margin-top: 70px;" class="right">
+    <div style="margin-top: 50px;" class="right">
         <div style="margin-right: 20px;">ลงชื่อ .................................................................</div>
         <div style="margin-right: 20px;">(.........................................................................)</div>
         <div style="margin-right: 50px;">อาจารย์ผู้สอนประจำรายวิชา</div>
         <div style="margin-right: 20px;">วันที่ ..................../....................../......................</div>
     </div>
 
-    <div style="margin-top: 70px;" class="right">
+    <div style="margin-top: 40px;" class="right">
         <div style="margin-right: 20px;">ลงชื่อ .................................................................</div>
         <div style="margin-right: 20px;">(.........................................................................)</div>
         <div>ผู้อำนวยการสำนักคอมพิวเตอร์และเทคโนโลยีสารสนเทศ</div>

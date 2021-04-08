@@ -13,6 +13,7 @@
             <th class="bor fz active" >ลำดับ</th>
             <th class="bor fz active" >ชื่อ</th>
             <th class="bor fz active" >คณะ</th>
+            <th class="bor fz active" >ภาควิชา</th>
             <th class="bor fz active" >รหัสวิชา</th>
             <th class="bor fz active" >วิชา</th>
             <th class="bor fz active" >ตอน</th>
@@ -26,6 +27,7 @@
             <td class="bor fz" >{{ $key+1 }}</td>
             <td class="bor fz" >{{ $row->fname }} {{ $row->lname }}</td>
             <td class="bor fz" >{{ $row->faculty }}</td>
+            <td class="bor fz" >{{ $row->department }}</td>
             <td class="bor fz" >{{ $row->course_code }}</td>
             <td class="bor fz" >{{ $row->subject }}</td>
             <td class="bor fz" >{{ $row->part }}</td>

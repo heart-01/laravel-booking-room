@@ -34,6 +34,7 @@
                                 <th>ลำดับ</th>
                                 <th>ชื่อ</th>
                                 <th>คณะ</th>
+                                <th>ภาควิชา</th>
                                 <th>รหัสวิชา</th>
                                 <th>วิชา</th>
                                 <th>ตอน</th>
@@ -49,6 +50,7 @@
                                 <td>{{ $key+1 }}</td>
                                 <td>{{ $row->fname }} {{ $row->lname }}</td>
                                 <td>{{ $row->faculty }}</td>
+                                <td>{{ $row->department }}</td>
                                 <td>{{ $row->course_code }}</td>
                                 <td>{{ $row->subject }}</td>
                                 <td>{{ $row->part }}</td>

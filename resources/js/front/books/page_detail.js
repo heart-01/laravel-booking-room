@@ -15,6 +15,7 @@ $("#frmBooking").submit(function(e){
                         `<dt class="col-sm-3">E-mail :</dt> <dd class="col-sm-9"> ${$('#email').val()} </dd>` +
                         `<dt class="col-sm-3">เบอร์ภายใน :</dt> <dd class="col-sm-9"> ${$('#tel').val()} </dd>` +
                         `<dt class="col-sm-3">คณะ :</dt> <dd class="col-sm-9"> ${$('#faculty').val()} </dd>` +
+                        `<dt class="col-sm-3">ภาควิชา :</dt> <dd class="col-sm-9"> ${$('#department').val()} </dd>` +
                         `<dt class="col-sm-3">วิชา :</dt> <dd class="col-sm-9"> ${$('#subject').val()} </dd>` +
                         `<dt class="col-sm-3">รหัสวิชา :</dt> <dd class="col-sm-9"> ${$('#course_code').val()} </dd>` +
                         `<dt class="col-sm-3">ตอนเรียน :</dt> <dd class="col-sm-9"> ${$('#part').val()} </dd>` +
@@ -96,6 +97,7 @@ $("#frmBooking").submit(function(e){
                             $("#con_email").val(result["data"]["email"]);
                             $("#con_tel").val(result["data"]["tel"]);
                             $("#con_faculty").val(result["data"]["faculty"]);
+                            $("#con_department").val(result["data"]["department"]);
                             $("#con_subject").val(result["data"]["subject"]);
                             $("#con_code").val(result["data"]["course_code"]);
                             $("#con_part").val(result["data"]["part"]);

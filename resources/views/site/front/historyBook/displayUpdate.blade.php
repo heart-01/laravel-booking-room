@@ -40,6 +40,10 @@
             <?= Form::text('faculty', $data->faculty, ['class' => 'form-control form-control-custom mb-3 bg-white', 'placeholder' => 'ชื่อคณะ', 'autocomplete'=> 'off','maxlength' =>'50','pattern' =>'^[ก-๏\sa-zA-Z\d]+$' ,'required','style'=> 'border-radius: 15px; border: 1px solid #ccc;']); ?>
           </div>
           <div class="form-group col-md-3 col-sm-12">
+            <?= Form::label('department', 'ภาควิชา: *', ['class' => 'h5']); ?>
+            <?= Form::text('department', $data->department, ['class' => 'form-control form-control-custom mb-3 bg-white', 'placeholder' => 'ชื่อภาควิชา', 'autocomplete'=> 'off','maxlength' =>'50','pattern' =>'^[ก-๏\sa-zA-Z\d]+$' ,'required','style'=> 'border-radius: 15px; border: 1px solid #ccc;']); ?>
+          </div>
+          <div class="form-group col-md-3 col-sm-12">
             <?= Form::label('subject', 'วิชา: *', ['class' => 'h5']); ?>
             <?= Form::text('subject', $data->subject, ['class' => 'form-control form-control-custom mb-3 bg-white', 'placeholder' => 'ชื่อวิชาเรียน', 'autocomplete'=> 'off','maxlength' =>'50','pattern' =>'^[ก-๏\sa-zA-Z\d]+$' ,'required','style'=> 'border-radius: 15px; border: 1px solid #ccc;']); ?>
           </div>

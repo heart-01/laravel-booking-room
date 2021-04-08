@@ -266,6 +266,7 @@ class BooksController extends Controller
             $Bookings->email = $request->email;
             $Bookings->tel = $request->tel;
             $Bookings->faculty = $request->faculty;
+            $Bookings->department = $request->department;
             $Bookings->subject = $request->subject;
             $Bookings->course_code = $request->course_code;
             $Bookings->part = $request->part;
@@ -325,6 +326,7 @@ class BooksController extends Controller
             $Bookings->email = $request->email;
             $Bookings->tel = $request->tel;
             $Bookings->faculty = $request->faculty;
+            $Bookings->department = $request->department;
             $Bookings->subject = $request->subject;
             $Bookings->course_code = $request->course_code;
             $Bookings->part = $request->part;
