@@ -139,8 +139,8 @@
   <aside class="main-sidebar elevation-4 sidebar-dark-warning">
     <!-- Brand Logo -->
     <a href="{{ route('home') }}" class="brand-link">
-      <img src="{{ url('/dashboard/dist/img/AdminLTELogo.png') }}" alt="Admin Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Admin Dashboard</span>
+      <img src="{{ asset('images/front/logo_icit.png') }}" alt="Admin Logo" class="brand-image img-circle elevation-3 bg-white" style="opacity: .8">
+      <span class="brand-text font-weight-light kanin">จองห้องออนไลน์</span>
     </a>
 
     <!-- Sidebar -->

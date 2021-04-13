@@ -27,7 +27,7 @@
   <div class="row justify-content-center">
     <div class="col-12 text-center p-0 mt-3 mb-2">
       <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
-        <h2 id="heading">ระบบจองห้องเรียนออนไลน์</h2>
+        <h2 id="heading">ระบบจองห้องปฏิบัติการคอมพิวเตอร์</h2>
         <p class="p-head">กรอกข้อมูลในแบบฟอร์มทั้งหมดเพื่อไปยังขั้นตอนถัดไป</p>
         <div id="msform">
           <!-- progressbar -->

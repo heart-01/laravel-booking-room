@@ -12,7 +12,7 @@
         <div class="text-center mb-5 mt-5 h5">
             <img src="{{ asset('images/front/logo_icit.png') }}" width="300" alt="logo_icit">
 
-            <p><b><i class="fa fa-home"></i> ห้องเรียน </b></p>
+            <p><b><i class="fa fa-home"></i> ห้องปฏิบัติการคอมพิวเตอร์ </b></p>
             <p><i class="fa fa-user"></i> คุณกนก บุญพันธ์จันที</p>
             <p><i class="fa fa-envelope-o"></i> kanokb@kmutnb.ac.th</p>
             <p><i class="fa fa-phone-square"></i> 02-555-2000 ต่อ 2211</p>

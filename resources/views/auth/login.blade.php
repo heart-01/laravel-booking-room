@@ -6,14 +6,13 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header text-white" style="background-color: #28a745;"><i class="fas fa-unlock mr-1"></i> เข้าสู่ระบบ</div>
-
+                <div class="text-center"><img src="{{ asset('images/front/logo_icit.png') }}" alt=""></div>
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
-
                         <div class="form-group row">
                             <label for="Username" class="col-md-4 col-form-label text-md-right">* Username</label>
-
+                            
                             <div class="col-md-6">
                                 <input class="form-control form-control-custom @error('Username') is-invalid @enderror" placeholder="Your ICIT Account..." name="Username" value="{{ old('Username') }}" required autocomplete="Username" autofocus>
 
@@ -48,6 +47,7 @@
                         </div>
                     </form>
                 </div>
+                <small class="mb-2 text-center text-danger">** กรุณาเข้าสู่ระบบโดยใช้ Username และ Password ของ ICIT Account เท่านั้น !</small>
             </div>
         </div>
     </div>

@@ -264,7 +264,7 @@
         </button>
       </div>
       <div class="form-title text-center">
-        <h4>เข้าสู่ระบบ</h4>
+        <div class="d-flex justify-content-center"><img src="{{ asset('images/front/logo_icit.png') }}" alt=""></div>
       </div>
       <form method="POST" action="{{ route('login') }}">
       @csrf
@@ -287,9 +287,9 @@
           </button>
         </div><br>
       </form>
-      <div class="modal-footer d-flex justify-content-center">
-        E-Room System by ICIT Account. 
-      </div>
+      <small class="modal-footer d-flex justify-content-center text-danger">
+        ** กรุณาเข้าสู่ระบบโดยใช้ Username และ Password ของ ICIT Account เท่านั้น !
+      </small>
     </div>
   </div>
 </div>

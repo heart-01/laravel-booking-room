@@ -11,7 +11,7 @@
     <table width='100%' style='border-collapse: collapse; border: 0px;'>
         <tr>
             <th class="bor fz active" >ลำดับ</th>
-            <th class="bor fz active" >ชื่อ</th>
+            <th class="bor fz active" >อาจารย์ผู้สอน</th>
             <th class="bor fz active" >คณะ</th>
             <th class="bor fz active" >ภาควิชา</th>
             <th class="bor fz active" >รหัสวิชา</th>

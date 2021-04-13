@@ -39,7 +39,7 @@
     <div class="card kanin">
       <div class="card-header">
           <div class="row text-center">
-              <h1 class="col-12" style="font-size: 30px;">ประวัติการจองห้องเรียน</h1>
+              <h1 class="col-12" style="font-size: 30px;">ประวัติการจองห้อง</h1>
           </div>
       </div>
       <!-- /.card-header -->
